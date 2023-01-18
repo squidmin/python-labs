@@ -5,7 +5,7 @@ print('--- Example: Creating a set ---')
 set_1 = set()
 print(repr(set_1))
 
-set_2 = set(['a', 'b', 'c'])
+set_2 = set(['a', 'b'])
 print(repr(set_2))
 
 set_3 = set('abc')
@@ -150,8 +150,8 @@ print()
 Finding subsets and supersets
 '''
 print('--- Example: Finding subsets and supersets ---')
-print('set_3 <= set_1 == ' + repr(set_3 >= set_1))
-print('set_3.issubset(set_1) == ' + repr(set_3.issubset(set_1)))
-print('set_3 >= set_1 == ' + repr(set_3 >= set_1))
-print('set_1.issuperset(set_3) == ' + repr(set_1.issuperset(set_3)))
+print('set_3 <= set_2 == ' + repr(set_3 <= set_2))
+print('set_3.issubset(set_2) == ' + repr(set_3.issubset(set_2)))
+print('set_3 >= set_2 == ' + repr(set_3 >= set_2))
+print('set_3.issuperset(set_2) == ' + repr(set_3.issuperset(set_2)))
 print()
