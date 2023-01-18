@@ -1,9 +1,4 @@
-# The Automobile class holds general data about an automobile in inventory.
-
 class Automobile:
-  # The __init__ method accepts arguments for the make, model, mileage, and price.
-  #   It initializes the data attributes with these values.
-
   def __init__(self, make, model, mileage, price):
     self.__make = make
     self.__model = model
