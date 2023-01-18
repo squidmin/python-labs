@@ -5,11 +5,20 @@ def main():
   ps_vita = consoles.PSVita()
   gba = consoles.GBA()
 
-  ps_vita.make_sound()
-  ps_vita.show_variant()
+  display_data(ps_vita)
+  print()
+  display_data(gba)
+  print()
+  display_data('stringvalue')
+  print()
 
-  gba.make_sound()
-  gba.show_variant()
+
+def display_data(variant):
+  if isinstance(variant, consoles.Portable):
+    variant.show_variant()
+    variant.make_sound()
+  else:
+    print('That\'s not a portable console.')
 
 
 main()
