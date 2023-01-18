@@ -30,4 +30,5 @@ def main():
   print('Passenger capacity: ', suv.get_pass_cap())
   print()
 
+
 main()
