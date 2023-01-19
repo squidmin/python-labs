@@ -131,3 +131,19 @@ You can specify a different separator by passing it in as an argument to the spl
 date = '01/01/2023'
 print(date.split('/'))  # ['01', '01', '2023']
 print()
+
+
+#####################################################################################################################
+
+
+"""
+Comparing strings
+"""
+string_8 = "abc"
+string_9 = "def"
+print(string_8 == string_9)  # False
+print(string_8 != string_9)  # True
+print(string_8 > string_9)   # False
+print(string_8 < string_9)   # True
+print(string_8 >= string_9)  # False
+print(string_8 <= string_9)  # True
