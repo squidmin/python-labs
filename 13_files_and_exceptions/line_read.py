@@ -1,5 +1,5 @@
 def main():
-    infile = open('items.txt', 'r')
+    infile = open('items_1.txt', 'r')
 
     line_1 = infile.readline()
     line_2 = infile.readline()
