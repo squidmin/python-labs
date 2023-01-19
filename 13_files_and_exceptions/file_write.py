@@ -1,5 +1,5 @@
 def main():
-    outfile = open('items.py', 'w')
+    outfile = open('items.txt', 'w')
 
     outfile.write('ITEM 1\n')
     outfile.write('ITEM 2\n')
