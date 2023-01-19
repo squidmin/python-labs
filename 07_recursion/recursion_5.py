@@ -1,4 +1,5 @@
 def main():
+    """Calculates greatest common divisor recursively"""
     num1 = int(input('Enter an integer: '))
     num2 = int(input('Enter another integer: '))
 
