@@ -75,5 +75,13 @@ eval "$(pyenv init --path)"
 
 ![init_pyenv_path.png](img/init_pyenv_path.png)
 
+### Specify the Python version for `gcloud` CLI
+
+To specify the version of Python to use with the `gcloud` CLI, set the `CLOUDSDK_PYTHON` environment variable as a final step:
+
+```shell
+export CLOUDSDK_PYTHON=python3
+```
+
 After these steps, you should have the latest release of Python 3 installed using `pyenv`.
 You can verify the installation by running `python --version`.
