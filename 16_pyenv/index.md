@@ -27,8 +27,8 @@ On Ubuntu, you can install them with the following command:
 
 ```shell
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
-libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+  libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+  libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
 ### 3. List available Python versions
@@ -66,6 +66,14 @@ pyenv local <python_version>
 ```
 
 Remember to replace `<python_version>` with the actual version number you want to use, such as `3.9.6`.
+
+### 6. Initialize the `pyenv` path
+
+```shell
+eval "$(pyenv init --path)"
+```
+
+![init_pyenv_path.png](img/init_pyenv_path.png)
 
 After these steps, you should have the latest release of Python 3 installed using `pyenv`.
 You can verify the installation by running `python --version`.
